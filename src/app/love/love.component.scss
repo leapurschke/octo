@@ -1,0 +1,53 @@
+.container{
+    height: 800px;
+    width:100%;
+    padding-left: 90px;
+    padding-top: 50px;
+    background: #ffe5c3de;
+    transition: all 1s 0s ease-in;   
+}
+
+.container0{
+    height: 800px;
+    width:100%;
+    padding-left: 90px;
+    padding-top: 50px;
+    background:#e19026de;
+    transition: all 1s 0s ease-in;
+    h1:hover:after{
+        content: "Deep green | Oil on Canvas | 2021";}   
+}
+
+.container1{
+    height: 800px;
+    width:100%;
+    padding-left: 90px;
+    padding-top: 50px;
+    background:#ffbe6ade;
+    transition: all 1s 0s ease-in;
+    h1:hover:after{
+        content: "Playful pink | Oil on Canvas | 2021";}   
+}
+
+.container2{
+    height: 800px;
+    width:100%;
+    padding-left: 90px;
+    padding-top: 50px;
+    background:#f3d8b6de;
+    transition: all 1s 0s ease-in;
+    h1:hover:after{
+        content: "Tropical blue | Oil on Canvas | 2021";}   
+}
+
+
+
+table {
+    width:100%;
+    height:100%;
+}
+tbody {
+    width:100%;
+    height:100%;
+}
+

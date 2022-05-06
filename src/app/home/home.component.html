@@ -1,0 +1,8 @@
+<body class="short" [ngClass]="{'short': changeColor, 'long': !changeColor }">
+    <div class="center" (mouseover)="changeColor=true" (mouseout)="changeColor=false" >
+        <span class="nextto">
+            <h1 routerLink="/start" >O C T O</h1>
+            <img class="rotate" src="assets/img/flowers/start.png">
+        </span>
+    </div>
+</body>
