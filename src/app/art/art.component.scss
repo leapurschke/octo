@@ -1,10 +1,10 @@
 .container{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom:  8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom:  2%;
     background: rgb(217, 224, 233);
     transition: all 1s 0s ease-in;   
 }
@@ -12,40 +12,40 @@
 .container0{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background:#e19026de;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:#b69ee2de;
     transition: all 1s 0s ease-in;
     h1:hover:after{
-        content: "Deep green | Oil on Canvas | 2021";}   
+        content: "Andalusia | 2017";}   
 }
 
 .container1{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background:#ffbe6ade;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:#90b4ebde;
     transition: all 1s 0s ease-in;
     h1:hover:after{
-        content: "Playful pink | Oil on Canvas | 2021";}   
+        content: "Arosa | 2022";}   
 }
 
 .container2{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom:  8%;
-    background:#f3d8b6de;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom:  2%;
+    background:#c7db7cde;
     transition: all 1s 0s ease-in;
     h1:hover:after{
-        content: "Tropical blue | Oil on Canvas | 2021";}   
+        content: "Kyoto | 2018";}   
 }
 
 table {

@@ -16,9 +16,9 @@ export class ArtComponent implements OnInit {
    }
 
   postsImg = [
-    'assets/img/art/art4.jpeg',
-    'assets/img/art/art5.jpeg',
-    'assets/img/art/art6.jpeg'
+    'assets/img/fotos/foto12.jpg',
+    'assets/img/fotos/foto13.jpg',
+    'assets/img/fotos/foto15.jpg'
   ];
   
   ngOnInit(): void {

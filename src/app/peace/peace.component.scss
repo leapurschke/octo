@@ -1,10 +1,10 @@
 .container{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom:  8%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom:  2%;
     background: rgb(217, 224, 233);
     transition: all 1s 0s ease-in;   
 }
@@ -12,11 +12,11 @@
 .container0{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background:#e19026de;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:#e4b87ede;
     transition: all 1s 0s ease-in;
     h1:hover:after{
         content: "Deep green | Oil on Canvas | 2021";}   
@@ -25,25 +25,28 @@
 .container1{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom: 8%;
-    background:#ffbe6ade;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background:#df949ede;
     transition: all 1s 0s ease-in;
     h1:hover:after{
-        content: "Playful pink | Oil on Canvas | 2021";}   
+        content: "Refreshing sea bath | Oil on Canvas | 2021";}   
 }
 
 .container2{
     height: 100%;
     display: flex;
-    padding-left: 15%;
-    padding-right: 15%;
-    padding-top: 8%;
-    padding-bottom:  8%;
-    background:#f3d8b6de;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom:  2%;
+    background:#0f423ede;
     transition: all 1s 0s ease-in;
+    h1{
+        color: aliceblue;
+    }
     h1:hover:after{
         content: "Tropical blue | Oil on Canvas | 2021";}   
 }
