@@ -3,10 +3,10 @@
 <body class="short" [ngClass]="{'img1': changeImageText1, 'standard': !changeImageText1, 'img2': changeImageText2,'img3': changeImageText3}">
     <div  class="center">
         <nav>
-            <h1 (mouseover)="changeImageText1=true" (mouseout)="changeImageText1=false" [@flyInOut0] routerLink="/love">L O V E</h1>
-            <h1 (mouseover)="changeImageText2=true" (mouseout)="changeImageText2=false" [@flyInOut1] routerLink="/peace">P E A C E</h1>
-            <h1 (mouseover)="changeImageText3=true" (mouseout)="changeImageText3=false" [@flyInOut2] routerLink="/happiness">H A P P I N E S S</h1>
-            <h1 [@flyInOut3] routerLink="/art">. . .</h1>
+            <h1 (mouseover)="changeImageText1=true" (mouseout)="changeImageText1=false"  routerLink="/love">L O V E</h1>
+            <h1 (mouseover)="changeImageText2=true" (mouseout)="changeImageText2=false"  routerLink="/peace">P E A C E</h1>
+            <h1 (mouseover)="changeImageText3=true" (mouseout)="changeImageText3=false"  routerLink="/happiness">H A P P I N E S S</h1>
+            <h1  routerLink="/art">. . .</h1>
         </nav>
       
     </div>    

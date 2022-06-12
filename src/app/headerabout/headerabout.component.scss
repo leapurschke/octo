@@ -44,13 +44,13 @@ div {
 
 
   .round-button2:hover {
-    content: "...";
+    content: "<";
     background:#ffd905;
     transform: scale(1.2);
   }
 
   .round-button2:hover::after {
-    content: " .";
+    content: "<";
   }
 
   .action_btn {

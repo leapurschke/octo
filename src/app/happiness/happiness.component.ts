@@ -5,16 +5,24 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './happiness.component.html',
   styleUrls: ['./happiness.component.scss']
 })
-export class HappinessComponent implements OnInit {
+export class HappinessComponent implements OnInit {changeImageBackgroundColor: boolean;
+  changeImageBackgroundColor1: boolean;
+  changeImageBackgroundColor2: boolean;
+  constructor() {
+    this.changeImageBackgroundColor = false;
+    this.changeImageBackgroundColor1 = false;
+    this.changeImageBackgroundColor2 = false;
+   }
 
-  constructor() { }
-
+  postsImg = [
+    'assets/img/art/art1.jpeg',
+    'assets/img/art/art2.jpeg',
+    'assets/img/art/art3.jpeg'
+  ];
+  
   ngOnInit(): void {
   }
-  postsImg = [
-    'assets/img/flowers/bild1.jpg',
-    'assets/img/flowers/bild2.jpg',
-    'assets/img/flowers/bild3.jpg'
-  ];
+
+  
   
 }

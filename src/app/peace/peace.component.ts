@@ -6,15 +6,24 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./peace.component.scss']
 })
 export class PeaceComponent implements OnInit {
+  changeImageBackgroundColor: boolean;
+  changeImageBackgroundColor1: boolean;
+  changeImageBackgroundColor2: boolean;
+  constructor() {
+    this.changeImageBackgroundColor = false;
+    this.changeImageBackgroundColor1 = false;
+    this.changeImageBackgroundColor2 = false;
+   }
 
-  constructor() { }
-
+  postsImg = [
+    'assets/img/art/art4.jpeg',
+    'assets/img/art/art5.jpeg',
+    'assets/img/art/art6.jpeg'
+  ];
+  
   ngOnInit(): void {
   }
-  postsImg = [
-    'assets/img/flowers/bild1.jpg',
-    'assets/img/flowers/bild2.jpg',
-    'assets/img/flowers/bild3.jpg'
-  ];
+
+  
   
 }

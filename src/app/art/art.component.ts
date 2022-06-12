@@ -6,21 +6,21 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./art.component.scss']
 })
 export class ArtComponent implements OnInit {
+  changeImageBackgroundColor: boolean;
+  changeImageBackgroundColor1: boolean;
+  changeImageBackgroundColor2: boolean;
+  constructor() {
+    this.changeImageBackgroundColor = false;
+    this.changeImageBackgroundColor1 = false;
+    this.changeImageBackgroundColor2 = false;
+   }
 
-  constructor() { }
-
-  postsTexts = [
-    'Love',
-    'Peace',
-    'Happiness'
-  ];
- 
   postsImg = [
-    'assets/img/flowers/bild1.jpg',
-    'assets/img/flowers/bild2.jpg',
-    'assets/img/flowers/bild3.jpg'
+    'assets/img/art/art4.jpeg',
+    'assets/img/art/art5.jpeg',
+    'assets/img/art/art6.jpeg'
   ];
-
+  
   ngOnInit(): void {
   }
 

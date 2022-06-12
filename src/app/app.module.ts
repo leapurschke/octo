@@ -17,6 +17,7 @@ import { StartComponent } from './start/start.component';
 import { HomeComponent } from './home/home.component';
 import { InfoComponent } from './info/info.component';
 import { HeaderstartComponent } from './headerstart/headerstart.component';
+import { HeaderaboutComponent } from './headerabout/headerabout.component';
 
 
 @NgModule({
@@ -32,7 +33,8 @@ import { HeaderstartComponent } from './headerstart/headerstart.component';
     StartComponent,
     HomeComponent,
     InfoComponent,
-    HeaderstartComponent
+    HeaderstartComponent,
+    HeaderaboutComponent
   ],
   imports: [
     BrowserModule,

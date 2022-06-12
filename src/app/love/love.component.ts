@@ -17,9 +17,9 @@ export class LoveComponent implements OnInit {
    }
 
   postsImg = [
-    'assets/img/flowers/bild1.jpg',
-    'assets/img/flowers/bild2.jpg',
-    'assets/img/flowers/bild3.jpg'
+    'assets/img/art/art1.jpeg',
+    'assets/img/art/art2.jpeg',
+    'assets/img/art/art3.jpeg'
   ];
   
   ngOnInit(): void {

@@ -1,20 +1,29 @@
-<div class="container0"> 
-    <app-flower-card 
-    *ngFor = "let i of [0]" 
-    [img]="postsImg[i]" 
-    ></app-flower-card>  
-</div>
+<table>
+    <thead>
+        <th>
+            <app-header> </app-header>
+        </th>
+    </thead>
+    <tbody>
+        <div class="container0" [ngClass]="{'container': !changeImageBackgroundColor, 'container0': changeImageBackgroundColor}"> 
+            <span (mouseover)="changeImageBackgroundColor=true" (mouseout)="changeImageBackgroundColor=false">
+                <app-flower-card [img]="postsImg[0]"></app-flower-card> 
+                <h1> # </h1>
+            </span> 
+        </div>
+        <div class="container1" [ngClass]="{'container': !changeImageBackgroundColor1, 'container1': changeImageBackgroundColor1}"> 
+            <span (mouseover)="changeImageBackgroundColor1=true" (mouseout)="changeImageBackgroundColor1=false">
+                <app-flower-card [img]="postsImg[1]"></app-flower-card> 
+                <h1> # </h1>
+            </span> 
+        </div>
+        <div class="container2" [ngClass]="{'container': !changeImageBackgroundColor2, 'container2': changeImageBackgroundColor2}"> 
+            <span (mouseover)="changeImageBackgroundColor2=true" (mouseout)="changeImageBackgroundColor2=false">
+                <app-flower-card [img]="postsImg[2]"></app-flower-card> 
+                <h1> # </h1>
+            </span> 
+        </div>     
+    </tbody>
+</table>
 
-<div class="container1"> 
-    <app-flower-card 
-    *ngFor = "let i of [1]" 
-    [img]="postsImg[i]" 
-    ></app-flower-card>  
-</div>
 
-<div class="container2"> 
-    <app-flower-card 
-    *ngFor = "let i of [2]" 
-    [img]="postsImg[i]" 
-    ></app-flower-card>  
-</div>
